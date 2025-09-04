@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Award, BarChart3, Brain, Database, Code, TrendingUp, Heart, FileText, User, Briefcase, GraduationCap } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail, Award, BarChart3, Brain, Code, TrendingUp, Heart  } from 'lucide-react';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -118,11 +118,12 @@ const Portfolio = () => {
             
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-                As a passionate beginner data analyst, I'm dedicated to uncovering meaningful insights from complex datasets. My journey in data science combines technical expertise with a genuine curiosity about how data can solve real-world problems.
+                As a passionate beginner data analyst, I&apos;m dedicated to uncovering meaningful insights from complex datasets. My journey in data science combines technical expertise with a genuine curiosity
+                 about how data can solve real-world problems.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                I specialize in machine learning applications, particularly in predictive analytics, where I've developed predictive models that can make a real difference in people's lives.
+                I specialize in machine learning applications, particularly in predictive analytics, where I&apos;ve developed predictive models that can make a real difference in people&apos;s lives.
               </p>
               
               <div className="grid grid-cols-2 gap-4 mt-8">
@@ -185,7 +186,8 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="flex gap-4">
-                  <button onClick={() => window.location.href = "https://github.com/AndrewZakhari/Heart_Disease_Project"} className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
+                  <button onClick={() => window.location.href = "https://github.com/AndrewZakhari/Heart_Disease_Project"} 
+                  className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300">
                     <Github className="w-4 h-4" />
                     View Code
                   </button>
@@ -354,11 +356,11 @@ const Portfolio = () => {
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Let's Connect
+              Let&apos;s Connect
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto rounded-full"></div>
             <p className="text-gray-300 mt-4 text-lg">
-              Ready to turn data into insights? Let's discuss your next project.
+              Ready to turn data into insights? Let&apos;s discuss your next project.
             </p>
           </div>
           
