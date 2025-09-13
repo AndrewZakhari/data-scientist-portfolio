@@ -118,6 +118,10 @@ const Portfolio = () => {
             
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
+                Leveraging dual expertise in data science and web development to build intelligent digital platforms that inform and optimize business decisions through machine learning.
+              </p>
+              
+              <p className="text-lg text-gray-300 leading-relaxed">
                 As a passionate beginner data analyst, I&apos;m dedicated to uncovering meaningful insights from complex datasets. My journey in data science combines technical expertise with a genuine curiosity
                  about how data can solve real-world problems.
               </p>
